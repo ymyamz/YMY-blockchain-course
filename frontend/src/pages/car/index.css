@@ -1,0 +1,115 @@
+.car-image {
+    width: 200px; /* 设置图片宽度 */
+    height: auto; /* 根据宽度自动调整高度 */
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user {
+    margin-bottom: 30px;
+  }
+  
+  .account {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .form {
+    margin-bottom: 30px;
+  }
+  
+  .select-car {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .upload-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .car-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .car-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .car-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .car-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .car-model {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .borrow-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .car-list h2 {
+    margin-top: 30px;
+  }
+  
+  .car-list button {
+    margin-right: 10px;
+  }
