@@ -37,7 +37,7 @@
     npx hardhat run scripts/deploy.ts --network ganache
     ```
 
-    复制输出的合约部署地址：![image-20231023142146458](https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231023142146458.png)
+    复制输出的合约部署地址：![image-20231023142146458](image-src/image-20231023142146458.png)
 
 5. 运行前端，将以上复制的地址粘贴至`./frontend/src/utils/contract-addresses.json`
 
@@ -57,7 +57,7 @@
 
 ### 总体界面
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103003553524.png" alt="image-20231103003553524" style="zoom: 67%;" />
+<img src="image-src/image-20231103003553524.png" alt="image-20231103003553524" style="zoom: 67%;" />
 
 ### 功能一：添加车辆
 
@@ -87,17 +87,17 @@
 
 1，ganache启动
 
-![image-20231102202018193](https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231102202018193.png)
+![image-20231102202018193](image-src/image-20231102202018193.png)
 
 2，后端部署在ganache本地区块链网络，在ganache中显示合约创建成功。
 
-![image-20231103003744167](https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103003744167.png)
+![image-20231103003744167](image-src/image-20231103003744167.png)
 
-![image-20231103003853001](https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103003853001.png)
+![image-20231103003853001](image-src/image-20231103003853001.png)
 
 3，通过启动npm run start启动前端
 
-![image-20231102202302717](https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231102202302717.png)
+![image-20231102202302717](image-src/image-20231102202302717.png)
 
 
 
@@ -105,67 +105,67 @@
 
 在MetaMask中连接本地Ganache测试网，导入ganache中的几个账号用于测试。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103003815911.png" alt="image-20231103003815911" style="zoom: 50%;" />
+<img src="image-src/image-20231103003815911.png" alt="image-20231103003815911" style="zoom: 50%;" />
 
 其中，部署合约的账号中初始拥有1000CT代币，可以发送给其他测试账户。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004307435.png" alt="image-20231103004307435" style="zoom: 50%;" />
+<img src="image-src/image-20231103004307435.png" alt="image-20231103004307435" style="zoom: 50%;" />
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004326595.png" alt="image-20231103004326595" style="zoom:50%;" />
+<img src="image-src/image-20231103004326595.png" alt="image-20231103004326595" style="zoom:50%;" />
 
 点击连接钱包按钮，当前用户变化，与MetaMask中相同。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004439395.png" alt="image-20231103004439395" style="zoom: 67%;" />
+<img src="image-src/image-20231103004439395.png" alt="image-20231103004439395" style="zoom: 67%;" />
 
 #### 导入新汽车
 
 选择汽车型号，点击导入，为当前账号导入指定型号的汽车。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004507949.png" alt="image-20231103004507949" style="zoom: 70%;" />
+<img src="image-src/image-20231103004507949.png" alt="image-20231103004507949" style="zoom: 70%;" />
 
 弹窗提示导入成功，显示在下方的空闲汽车列表。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004600181.png" alt="image-20231103004600181" style="zoom:67%;" />
+<img src="image-src/image-20231103004600181.png" alt="image-20231103004600181" style="zoom:67%;" />
 
 在ganache中查看，调用addCar函数的记录。
 
-#### ![image-20231103004634844](https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004634844.png)
+#### ![image-20231103004634844](image-src/image-20231103004634844.png)
 
 点击我的车辆列表-拥有的车辆可显示当前帐号导入的车辆。能显示车辆的唯一性id和当前租借人（目前未被租借）。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004648720.png" alt="image-20231103004648720" style="zoom:67%;" />
+<img src="image-src/image-20231103004648720.png" alt="image-20231103004648720" style="zoom:67%;" />
 
 #### 租借车辆
 
 切换账号。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004734629.png" alt="image-20231103004734629" style="zoom:67%;" />
+<img src="image-src/image-20231103004734629.png" alt="image-20231103004734629" style="zoom:67%;" />
 
 点击租借按钮，跳出弹窗。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004754263.png" alt="image-20231103004754263" style="zoom:67%;" />
+<img src="image-src/image-20231103004754263.png" alt="image-20231103004754263" style="zoom:67%;" />
 
 车辆从空闲汽车列表消失，可以点击我的车辆列表-租借的车辆查看当前租借的车辆。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103004812977.png" alt="image-20231103004812977" style="zoom:67%;" />
+<img src="image-src/image-20231103004812977.png" alt="image-20231103004812977" style="zoom:67%;" />
 
 车辆设置为在借出5分钟后自动归还（方便测试）。
 
-本账户代币由70CT变为40CT。(-30CT)<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103005738502.png" alt="image-20231103005738502" style="zoom:67%;" />
+本账户代币由70CT变为40CT。(-30CT)<img src="image-src/image-20231103005738502.png" alt="image-20231103005738502" style="zoom:67%;" />
 
 租借车辆的车主代币由130CT变为160CT。（+30CT）
 
-![image-20231103005356527](https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103005356527.png)
+![image-20231103005356527](image-src/image-20231103005356527.png)
 
 该账户调用borrow函数的区块链记录。
 
-![image-20231103005647296](https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103005647296.png)
+![image-20231103005647296](image-src/image-20231103005647296.png)
 
 #### 查询指定车辆
 
 可通过车辆token(唯一性id)查询车辆车主、租借人、车型等。
 
-<img src="https://github.com/ymyamz/YMY-blockchain-course/tree/main/image-src/image-20231103010310786.png" alt="image-20231103010310786" style="zoom:67%;" />
+<img src="image-src/image-20231103010310786.png" alt="image-20231103010310786" style="zoom:67%;" />
 
 ## 参考内容
 
